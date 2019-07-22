@@ -78,9 +78,7 @@ def combine_columns(inputdb):
 
 def main():
     merged_df = merge_from_exc("orders.xlsx", "order_lines.xlsx", True)
-    print(merged_df)
     results_df = combine_columns(merged_df)
-    print(results_df)
     save_to_exc(results_df, "results.xlsx")
 
 
