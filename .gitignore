@@ -1,0 +1,7 @@
+~$*
+.vscode/
+venv/
+tmp.py
+test/
+__pycache__/
+test.py
